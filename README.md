@@ -523,6 +523,7 @@ query workspaceServiceAccounts{{
 ```
 ######### migrate to runtime version  ##########
 
+```
  mutation updateDeploymentRuntime(
     $deploymentUuid: Uuid!
     $desiredRuntimeVersion: String!
@@ -537,4 +538,4 @@ query workspaceServiceAccounts{{
           runtimeAirflowVersion
       }
     }
-
+```
